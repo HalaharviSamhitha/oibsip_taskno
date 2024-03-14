@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid;
+    background-color: #100e18;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 5px 10px 20px #daa520;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    text-align: center; /* Added to center-align inline-block elements */
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: goldenrod;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #100e18;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.error-message {
+    color: gold;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
